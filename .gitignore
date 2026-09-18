@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+data/raw/GeoLife/**
+!data/raw/GeoLife/.gitkeep
+models/*.joblib
+data/processed/*.csv
+data/synthetic/*.csv
+reports/outputs/

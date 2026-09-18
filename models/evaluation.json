@@ -1,0 +1,108 @@
+{
+  "dataset": {
+    "total_cases": 200,
+    "training_cases": 150,
+    "testing_cases": 50,
+    "target_classes": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  "models": {
+    "Random Forest": {
+      "accuracy": 0.28,
+      "precision": 0.28645238095238096,
+      "recall": 0.28,
+      "f1_score": 0.2749591149591149,
+      "macro_precision": 0.28462301587301586,
+      "macro_recall": 0.280448717948718,
+      "macro_f1": 0.27429052429052425,
+      "top_1_accuracy": 0.3,
+      "top_3_accuracy": 0.78,
+      "top_5_accuracy": 1.0,
+      "confusion_matrix": {
+        "labels": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "matrix": [
+          [
+            4,
+            4,
+            3,
+            2
+          ],
+          [
+            3,
+            5,
+            2,
+            2
+          ],
+          [
+            2,
+            4,
+            3,
+            4
+          ],
+          [
+            5,
+            5,
+            0,
+            2
+          ]
+        ]
+      }
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.18,
+      "precision": 0.1876358543417367,
+      "recall": 0.18,
+      "f1_score": 0.18179509379509376,
+      "macro_precision": 0.18853874883286648,
+      "macro_recall": 0.1794871794871795,
+      "macro_f1": 0.18196248196248196,
+      "top_1_accuracy": 0.18,
+      "top_3_accuracy": 0.64,
+      "top_5_accuracy": 1.0,
+      "confusion_matrix": {
+        "labels": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "matrix": [
+          [
+            2,
+            4,
+            6,
+            1
+          ],
+          [
+            3,
+            2,
+            3,
+            4
+          ],
+          [
+            5,
+            3,
+            3,
+            2
+          ],
+          [
+            7,
+            1,
+            2,
+            2
+          ]
+        ]
+      }
+    }
+  },
+  "selected_model": "Random Forest"
+}

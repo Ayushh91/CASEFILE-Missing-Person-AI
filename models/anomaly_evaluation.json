@@ -1,0 +1,28 @@
+{
+  "algorithm": "Isolation Forest",
+  "contamination": 0.08,
+  "features_used": [
+    "speed_kmh",
+    "distance_km",
+    "duration_hours",
+    "hour",
+    "weekday"
+  ],
+  "total_records": 89252,
+  "normal_records": 82117,
+  "anomalous_records": 7135,
+  "anomaly_percentage": 7.994218616949761,
+  "score_summary": {
+    "count": 89252.0,
+    "mean": 0.44192471183868043,
+    "std": 0.06370600475254294,
+    "min": 0.3715435183288948,
+    "25%": 0.3962403525642374,
+    "50%": 0.4132115545562658,
+    "75%": 0.4750824127405058,
+    "max": 0.8056842124928354
+  },
+  "interpretation": "Anomalies represent statistical deviations from observed movement patterns. They do not indicate wrongdoing or suspicious behavior.",
+  "threshold_note": "The contamination parameter controls the expected proportion of observations treated as anomalies. A value of 0.08 was used for this academic simulation.",
+  "false_positive_note": "Without ground-truth anomaly labels, conventional false-positive and false-negative rates cannot be reliably calculated. Detected anomalies should therefore be interpreted as statistical signals."
+}
